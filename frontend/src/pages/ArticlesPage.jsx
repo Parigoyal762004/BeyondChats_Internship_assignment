@@ -1,44 +1,33 @@
 import React, { useState, useEffect } from 'react';
 import ArticleCard from '../components/ArticleCard';
-import LoadingSpinner from '../components/LoadingSpinner';
-import { fetchArticles } from '../utils/api';
+import { mockArticles } from '../data/mockArticles';
 
 export default function ArticlesPage() {
   const [articles, setArticles] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
   const [filter, setFilter] = useState('all');
   const [page, setPage] = useState(1);
-  const [pagination, setPagination] = useState(null);
   const [limit] = useState(12);
 
   useEffect(() => {
     loadArticles();
   }, [page, filter]);
 
-  const loadArticles = async () => {
-    try {
-      setLoading(true);
-      setError(null);
-      const result = await fetchArticles(page, limit, filter === 'all' ? null : filter);
-      setArticles(result.data || []);
-      setPagination(result.pagination);
-    } catch (err) {
-      setError('Failed to load articles. Please try again.');
-      console.error(err);
-    } finally {
-      setLoading(false);
+  const loadArticles = () => {
+    let filtered = mockArticles;
+    
+    if (filter === 'original') {
+      filtered = filtered.filter(a => !a.is_updated);
+    } else if (filter === 'updated') {
+      filtered = filtered.filter(a => a.is_updated);
     }
+    
+    setArticles(filtered);
   };
 
   const handleFilterChange = (newFilter) => {
     setFilter(newFilter);
     setPage(1);
   };
-
-  if (loading && articles.length === 0) {
-    return <LoadingSpinner text="Loading articles..." />;
-  }
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
@@ -66,57 +55,16 @@ export default function ArticlesPage() {
         ))}
       </div>
 
-      {error && (
-        <div className="bg-red-50 border border-red-200 text-red-700 p-4 rounded-lg mb-8">
-          {error}
-        </div>
-      )}
-
       {articles.length === 0 ? (
         <div className="text-center py-12">
-          <p className="text-gray-600 text-lg">No articles found. Run Phase 1 scraper first.</p>
+          <p className="text-gray-600 text-lg">No articles found.</p>
         </div>
       ) : (
-        <>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            {articles.map((article) => (
-              <ArticleCard key={article.id} article={article} />
-            ))}
-          </div>
-
-          {/* Pagination */}
-          {pagination && pagination.pages > 1 && (
-            <div className="flex justify-center gap-4 mt-12">
-              <button
-                onClick={() => setPage(Math.max(1, page - 1))}
-                disabled={page === 1}
-                className={`px-4 py-2 rounded ${
-                  page === 1
-                    ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
-                    : 'bg-blue-600 text-white hover:bg-blue-700'
-                }`}
-              >
-                Previous
-              </button>
-
-              <span className="px-4 py-2 text-gray-600">
-                Page {page} of {pagination.pages}
-              </span>
-
-              <button
-                onClick={() => setPage(Math.min(pagination.pages, page + 1))}
-                disabled={page === pagination.pages}
-                className={`px-4 py-2 rounded ${
-                  page === pagination.pages
-                    ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
-                    : 'bg-blue-600 text-white hover:bg-blue-700'
-                }`}
-              >
-                Next
-              </button>
-            </div>
-          )}
-        </>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+          {articles.map((article) => (
+            <ArticleCard key={article.id} article={article} />
+          ))}
+        </div>
       )}
     </div>
   );

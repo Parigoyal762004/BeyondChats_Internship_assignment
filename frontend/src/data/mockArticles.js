@@ -1,0 +1,166 @@
+export const mockArticles = [
+  {
+    "id": 1,
+    "title": "AI in Healthcare: Hype or Reality?",
+    "author": "Unknown Author",
+    "publication_date": "2025-03-21T04:34:42.000Z",
+    "source_url": "https://beyondchats.com/blogs/ai-in-healthcare-hype-or-reality/",
+    "is_updated": true,
+    "scraped_at": "2025-12-28T06:46:46.623Z",
+    "updated_at": "2025-12-28T06:52:09.977Z",
+    "content": "\n\n\t\t\t<footer class=\"ct-comment-meta\">\n\t\t\t\t<figure class=\"ct-media-container\"><img loading=\"lazy\" src=\"https://secure.gravatar.com/avatar/4eaa694ad11eaace8e05ec90504851b7f9594877c0582f836851f73b1ab8e9ba?s=100&amp;d=mm&amp;r=g\" width=\"100\" height=\"100\" alt=\"Siddhant Jain\" style=\"aspect-ratio: 1/1;\"></figure>\n\t\t\t\t<h4 class=\"ct-comment-author\">\n\t\t\t\t\t<cite>Siddhant Jain</cite>\t\t\t\t</h4>\n\n\t\t\t\t<div class=\"ct-comment-meta-data\">\n\t\t\t\t\t<a href=\"https://beyondchats.com/blogs/ai-in-healthcare-hype-or-reality/#comment-611\"><time datetime=\"2025-03-25T16:23:14+05:30\">March 25, 2025 / 4:23 pm</time></a>\n\t\t\t\t\t\n\t\t\t\t\t<a rel=\"nofollow\" class=\"comment-reply-link\" href=\"#comment-611\" data-commentid=\"611\" data-postid=\"7221\" data-belowelement=\"ct-comment-inner-611\" data-respondelement=\"respond\" data-replyto=\"Reply to Siddhant Jain\" aria-label=\"Reply to Siddhant Jain\">Reply</a>\t\t\t\t</div>\n\t\t\t</footer>\n\n\n\t\t\t<div class=\"ct-comment-content entry-content is-layout-flow\">\n\t\t\t\t<p>Explainable AI is definitely the way forward. At its current state, it should be seen more as an Assistive Intelligence rather than Artificial Intelligence.</p>\n\n\t\t\t\t\t\t\t</div>\n\n\t\t",
+    "references": []
+  },
+  {
+    "id": 2,
+    "title": "What If AI Recommends the Wrong Medicine – Who's to Blame?",
+    "author": "Unknown Author",
+    "publication_date": "2025-03-24T11:48:24.000Z",
+    "source_url": "https://beyondchats.com/blogs/what-if-ai-recommends-the-wrong-medicine-whos-to-blame/",
+    "is_updated": false,
+    "scraped_at": "2025-12-28T06:46:47.760Z",
+    "updated_at": "2025-12-28T06:46:47.760Z",
+    "content": "\n\t\t\t\t<a class=\"elementor-post__thumbnail__link\" href=\"https://beyondchats.com/blogs/choosing-the-right-ai-chatbot-a-guide/\" tabindex=\"-1\">\n\t\t\t<div class=\"elementor-post__thumbnail\"><img width=\"1024\" height=\"576\" src=\"https://beyondchats.com/wp-content/uploads/2025/11/Choosing_the_right_AI_Chatbot-1024x576.png\" class=\"attachment-large size-large wp-image-7585\" alt=\"Choosing the right AI chatbot\"></div>\n\t\t</a>\n\t\t\t\t<div class=\"elementor-post__text\">\n\t\t\t\t<h4 class=\"elementor-post__title\">\n\t\t\t<a href=\"https://beyondchats.com/blogs/choosing-the-right-ai-chatbot-a-guide/\">\n\t\t\t\tChoosing the right AI chatbot : A Guide\t\t\t</a>\n\t\t</h4>\n\t\t\t\t<div class=\"elementor-post__meta-data\">\n\t\t\t\t\t<span class=\"elementor-post-date\">\n\t\t\tNovember 28, 2025\t\t</span>\n\t\t\t\t<span class=\"elementor-post-avatar\">\n\t\t\tNo Comments\t\t</span>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-post__excerpt\">\n\t\t\t<div class=\"has-excerpt-area\" data-url=\"https://beyondchats.com/blogs/choosing-the-right-ai-chatbot-a-guide/\" data-title=\"Choosing the right AI chatbot : A Guide\" data-hashtags=\"\"><p>If you've been looking for a chatbot lately, you've probably felt one thing –&nbsp;\"confusion.\" There are too many platforms in</p>\n</div>\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t",
+    "references": []
+  },
+  {
+    "id": 3,
+    "title": "What If AI Recommends the Wrong Medicine – Who's Responsible?",
+    "author": "Unknown Author",
+    "publication_date": "2025-03-24T11:48:24.000Z",
+    "source_url": "https://beyondchats.com/blogs/what-if-ai-recommends-the-wrong-medicine-whos-to-blame-2/",
+    "is_updated": false,
+    "scraped_at": "2025-12-28T06:46:49.188Z",
+    "updated_at": "2025-12-28T06:46:49.188Z",
+    "content": "\n\t\t\t\t<a class=\"elementor-post__thumbnail__link\" href=\"https://beyondchats.com/blogs/choosing-the-right-ai-chatbot-a-guide/\" tabindex=\"-1\">\n\t\t\t<div class=\"elementor-post__thumbnail\"><img width=\"1024\" height=\"576\" src=\"https://beyondchats.com/wp-content/uploads/2025/11/Choosing_the_right_AI_Chatbot-1024x576.png\" class=\"attachment-large size-large wp-image-7585\" alt=\"Choosing the right AI chatbot\"></div>\n\t\t</a>\n\t\t\t\t<div class=\"elementor-post__text\">\n\t\t\t\t<h4 class=\"elementor-post__title\">\n\t\t\t<a href=\"https://beyondchats.com/blogs/choosing-the-right-ai-chatbot-a-guide/\">\n\t\t\t\tChoosing the right AI chatbot : A Guide\t\t\t</a>\n\t\t</h4>\n\t\t\t\t<div class=\"elementor-post__meta-data\">\n\t\t\t\t\t<span class=\"elementor-post-date\">\n\t\t\tNovember 28, 2025\t\t</span>\n\t\t\t\t<span class=\"elementor-post-avatar\">\n\t\t\tNo Comments\t\t</span>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-post__excerpt\">\n\t\t\t<div class=\"has-excerpt-area\" data-url=\"https://beyondchats.com/blogs/choosing-the-right-ai-chatbot-a-guide/\" data-title=\"Choosing the right AI chatbot : A Guide\" data-hashtags=\"\"><p>If you've been looking for a chatbot lately, you've probably felt one thing –&nbsp;\"confusion.\" There are too many platforms in</p>\n</div>\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t",
+    "references": []
+  },
+  {
+    "id": 4,
+    "title": "Your website needs a receptionist",
+    "author": "Unknown Author",
+    "publication_date": "2025-03-25T09:19:41.000Z",
+    "source_url": "https://beyondchats.com/blogs/your-website-needs-a-receptionist/",
+    "is_updated": true,
+    "scraped_at": "2025-12-28T06:46:50.209Z",
+    "updated_at": "2025-12-28T06:51:54.132Z",
+    "content": "\n\n\t\t\t<footer class=\"ct-comment-meta\">\n\t\t\t\t<figure class=\"ct-media-container\"><img src=\"https://secure.gravatar.com/avatar/19940a6a0984d7438966e00d1bf164878e1a05d97b246fdc000e6b3dd3961233?s=100&amp;d=mm&amp;r=g\" width=\"100\" height=\"100\" alt=\"Devanshu\" style=\"aspect-ratio: 1/1;\"></figure>\n\t\t\t\t<h4 class=\"ct-comment-author\">\n\t\t\t\t\t<cite>Devanshu</cite>\t\t\t\t</h4>\n\n\t\t\t\t<div class=\"ct-comment-meta-data\">\n\t\t\t\t\t<a href=\"https://beyondchats.com/blogs/your-website-needs-a-receptionist/#comment-615\"><time datetime=\"2025-03-25T19:19:10+05:30\">March 25, 2025 / 7:19 pm</time></a>\n\t\t\t\t\t\n\t\t\t\t\t<a rel=\"nofollow\" class=\"comment-reply-link\" href=\"#comment-615\" data-commentid=\"615\" data-postid=\"7358\" data-belowelement=\"ct-comment-inner-615\" data-respondelement=\"respond\" data-replyto=\"Reply to Devanshu\" aria-label=\"Reply to Devanshu\">Reply</a>\t\t\t\t</div>\n\t\t\t</footer>\n\n\n\t\t\t<div class=\"ct-comment-content entry-content is-layout-flow\">\n\t\t\t\t<p>So true! Not having an interactive element like chatbot on a website significantly reduces traffic retention.</p>\n\n\t\t\t\t\t\t\t</div>\n\n\t\t",
+    "references": [
+      {
+        "id": 3,
+        "article_id": 7,
+        "reference_title": "Your Website Needs A Receptionist",
+        "reference_url": "https://beyondchats.com/blogs/your-website-needs-a-receptionist/",
+        "reference_source": "beyondchats.com",
+        "created_at": "2025-12-28T06:51:53.940Z"
+      },
+      {
+        "id": 4,
+        "article_id": 7,
+        "reference_title": "Your Website Needs A Receptionist",
+        "reference_url": "https://beyondchats.com/blogs/your-website-needs-a-receptionist/",
+        "reference_source": "beyondchats.com",
+        "created_at": "2025-12-28T06:51:53.940Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Will AI Understand the Complexities of Patient Care?",
+    "author": "Unknown Author",
+    "publication_date": "2025-04-02T08:49:38.000Z",
+    "source_url": "https://beyondchats.com/blogs/will-ai-understand-the-complexities-of-patient-care/",
+    "is_updated": true,
+    "scraped_at": "2025-12-28T06:46:51.357Z",
+    "updated_at": "2025-12-28T06:51:46.253Z",
+    "content": "\n\n\t\t\t<footer class=\"ct-comment-meta\">\n\t\t\t\t<figure class=\"ct-media-container\"><img src=\"https://secure.gravatar.com/avatar/fb33926654f36d36a0ae6f8e3a19356311a8baa598c2a4003e0a3aa1fe0b7fc6?s=100&amp;d=mm&amp;r=g\" width=\"100\" height=\"100\" alt=\"Pankaj\" style=\"aspect-ratio: 1/1;\"></figure>\n\t\t\t\t<h4 class=\"ct-comment-author\">\n\t\t\t\t\t<cite>Pankaj</cite>\t\t\t\t</h4>\n\n\t\t\t\t<div class=\"ct-comment-meta-data\">\n\t\t\t\t\t<a href=\"https://beyondchats.com/blogs/will-ai-understand-the-complexities-of-patient-care/#comment-619\"><time datetime=\"2025-04-03T00:16:14+05:30\">April 3, 2025 / 12:16 am</time></a>\n\t\t\t\t\t\n\t\t\t\t\t<a rel=\"nofollow\" class=\"comment-reply-link\" href=\"#comment-619\" data-commentid=\"619\" data-postid=\"7360\" data-belowelement=\"ct-comment-inner-619\" data-respondelement=\"respond\" data-replyto=\"Reply to Pankaj\" aria-label=\"Reply to Pankaj\">Reply</a>\t\t\t\t</div>\n\t\t\t</footer>\n\n\n\t\t\t<div class=\"ct-comment-content entry-content is-layout-flow\">\n\t\t\t\t<p>Very well written. But I feel it's only a matter of time when AI starts understanding patient nuances much better. Doctors are already super tired and many times, also biased. AI might become better than avg doctors at patient care. But I agree that AI is not there yet.</p>\n\n\t\t\t\t\t\t\t</div>\n\n\t\t",
+    "references": [
+      {
+        "id": 1,
+        "article_id": 6,
+        "reference_title": "Advancing Patient Care: How Artificial Intelligence Is ...",
+        "reference_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10455458/",
+        "reference_source": "pmc.ncbi.nlm.nih.gov",
+        "created_at": "2025-12-28T06:51:46.052Z"
+      },
+      {
+        "id": 2,
+        "article_id": 6,
+        "reference_title": "Artificial Intelligence and the Dehumanization of Patient Care",
+        "reference_url": "https://www.sciencedirect.com/science/article/pii/S2949916X24000914",
+        "reference_source": "www.sciencedirect.com",
+        "created_at": "2025-12-28T06:51:46.163Z"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Will AI Understand the Complexities of Patient Care? (Enhanced)",
+    "author": "Unknown Author",
+    "publication_date": "2025-12-28T12:21:50.826Z",
+    "source_url": "https://beyondchats.com/blogs/will-ai-understand-the-complexities-of-patient-care/#enhanced",
+    "is_updated": false,
+    "scraped_at": "2025-12-28T06:51:45.947Z",
+    "updated_at": "2025-12-28T06:51:45.947Z",
+    "content": "<article>\n  <h1>Will AI Understand the Complexities of Patient Care? - Enhanced Version</h1>\n  <p>This article has been enhanced with insights from top-ranking competitors.</p>\n  <section>\n    <h2>Key Improvements in This Version</h2>\n    <ul>\n      <li>Better structure and organization</li>\n      <li>Additional insights from competitor research</li>\n      <li>Improved clarity and readability</li>\n      <li>Comprehensive coverage of the topic</li>\n    </ul>\n  </section>\n  <section>\n    <h2>Original Content (Enhanced)</h2>\n    <p>Very well written. But I feel it's only a matter of time when AI starts understanding patient nuances much better. Doctors are already super tired and many times, also biased. AI might become better than avg doctors at patient care. But I agree that AI is not there yet.</p>\n  </section>\n  <p><em>This enhanced version maintains the original voice while incorporating best practices from top-ranking articles on the same topic.</em></p>\n</article>",
+    "references": []
+  },
+  {
+    "id": 7,
+    "title": "Your website needs a receptionist (Enhanced)",
+    "author": "Unknown Author",
+    "publication_date": "2025-12-28T12:21:58.649Z",
+    "source_url": "https://beyondchats.com/blogs/your-website-needs-a-receptionist/#enhanced",
+    "is_updated": false,
+    "scraped_at": "2025-12-28T06:51:53.758Z",
+    "updated_at": "2025-12-28T06:51:53.758Z",
+    "content": "<article>\n  <h1>Your website needs a receptionist - Enhanced Version</h1>\n  <p>This article has been enhanced with insights from top-ranking competitors.</p>\n  <section>\n    <h2>Key Improvements in This Version</h2>\n    <ul>\n      <li>Better structure and organization</li>\n      <li>Additional insights from competitor research</li>\n      <li>Improved clarity and readability</li>\n      <li>Comprehensive coverage of the topic</li>\n    </ul>\n  </section>\n  <section>\n    <h2>Original Content (Enhanced)</h2>\n    <p>So true! Not having an interactive element like chatbot on a website significantly reduces traffic retention.</p>\n  </section>\n  <p><em>This enhanced version maintains the original voice while incorporating best practices from top-ranking articles on the same topic.</em></p>\n</article>",
+    "references": [
+      {
+        "id": 3,
+        "article_id": 7,
+        "reference_title": "Your Website Needs A Receptionist",
+        "reference_url": "https://beyondchats.com/blogs/your-website-needs-a-receptionist/",
+        "reference_source": "beyondchats.com",
+        "created_at": "2025-12-28T06:51:53.940Z"
+      },
+      {
+        "id": 4,
+        "article_id": 7,
+        "reference_title": "Your Website Needs A Receptionist",
+        "reference_url": "https://beyondchats.com/blogs/your-website-needs-a-receptionist/",
+        "reference_source": "beyondchats.com",
+        "created_at": "2025-12-28T06:51:53.940Z"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "AI in Healthcare: Hype or Reality? (Enhanced)",
+    "author": "Unknown Author",
+    "publication_date": "2025-12-28T12:22:13.931Z",
+    "source_url": "https://beyondchats.com/blogs/ai-in-healthcare-hype-or-reality/#enhanced",
+    "is_updated": false,
+    "scraped_at": "2025-12-28T06:52:09.684Z",
+    "updated_at": "2025-12-28T06:52:09.684Z",
+    "content": "<article>\n  <h1>AI in Healthcare: Hype or Reality? - Enhanced Version</h1>\n  <p>This article has been enhanced with insights from top-ranking competitors.</p>\n  <section>\n    <h2>Key Improvements in This Version</h2>\n    <ul>\n      <li>Better structure and organization</li>\n      <li>Additional insights from competitor research</li>\n      <li>Improved clarity and readability</li>\n      <li>Comprehensive coverage of the topic</li>\n    </ul>\n  </section>\n  <section>\n    <h2>Original Content (Enhanced)</h2>\n    <p>Explainable AI is definitely the way forward. At its current state, it should be seen more as an Assistive Intelligence rather than Artificial Intelligence.</p>\n  </section>\n  <p><em>This enhanced version maintains the original voice while incorporating best practices from top-ranking articles on the same topic.</em></p>\n</article>",
+    "references": [
+      {
+        "id": 5,
+        "article_id": 8,
+        "reference_title": "Hype vs Reality in the Integration of Artificial Intelligence in ...",
+        "reference_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12700513/",
+        "reference_source": "pmc.ncbi.nlm.nih.gov",
+        "created_at": "2025-12-28T06:52:09.787Z"
+      },
+      {
+        "id": 6,
+        "article_id": 8,
+        "reference_title": "On health AI, get past the hype to address real problems",
+        "reference_url": "https://www.ama-assn.org/practice-management/digital-health/health-ai-get-past-hype-address-real-problems",
+        "reference_source": "www.ama-assn.org",
+        "created_at": "2025-12-28T06:52:09.884Z"
+      }
+    ]
+  }
+];
