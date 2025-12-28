@@ -10,7 +10,7 @@ const fetchArticlesFromBeyondChats = async () => {
   try {
     console.log('[SCRAPER] Fetching BeyondChats blog...');
     
-    const response = await axios.get('https://www.beyondchats.com/blogs/', {
+    const response = await axios.get('https://beyondchats.com/blogs/', {
       timeout: 10000,
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
@@ -35,7 +35,7 @@ const fetchArticlesFromBeyondChats = async () => {
         // Try multiple selectors for URL
         let url = $el.find('a').attr('href') || '';
         if (url && !url.startsWith('http')) {
-          url = new URL(url, 'https://www.beyondchats.com').href;
+          url = new URL(url, 'https://beyondchats.com').href;
         }
 
         // Try to extract date
