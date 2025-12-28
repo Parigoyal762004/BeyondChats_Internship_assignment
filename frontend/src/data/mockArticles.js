@@ -45,24 +45,7 @@ export const mockArticles = [
     "scraped_at": "2025-12-28T06:46:50.209Z",
     "updated_at": "2025-12-28T06:51:54.132Z",
     "content": "\n\n\t\t\t<footer class=\"ct-comment-meta\">\n\t\t\t\t<figure class=\"ct-media-container\"><img src=\"https://secure.gravatar.com/avatar/19940a6a0984d7438966e00d1bf164878e1a05d97b246fdc000e6b3dd3961233?s=100&amp;d=mm&amp;r=g\" width=\"100\" height=\"100\" alt=\"Devanshu\" style=\"aspect-ratio: 1/1;\"></figure>\n\t\t\t\t<h4 class=\"ct-comment-author\">\n\t\t\t\t\t<cite>Devanshu</cite>\t\t\t\t</h4>\n\n\t\t\t\t<div class=\"ct-comment-meta-data\">\n\t\t\t\t\t<a href=\"https://beyondchats.com/blogs/your-website-needs-a-receptionist/#comment-615\"><time datetime=\"2025-03-25T19:19:10+05:30\">March 25, 2025 / 7:19 pm</time></a>\n\t\t\t\t\t\n\t\t\t\t\t<a rel=\"nofollow\" class=\"comment-reply-link\" href=\"#comment-615\" data-commentid=\"615\" data-postid=\"7358\" data-belowelement=\"ct-comment-inner-615\" data-respondelement=\"respond\" data-replyto=\"Reply to Devanshu\" aria-label=\"Reply to Devanshu\">Reply</a>\t\t\t\t</div>\n\t\t\t</footer>\n\n\n\t\t\t<div class=\"ct-comment-content entry-content is-layout-flow\">\n\t\t\t\t<p>So true! Not having an interactive element like chatbot on a website significantly reduces traffic retention.</p>\n\n\t\t\t\t\t\t\t</div>\n\n\t\t",
-    "references": [
-      {
-        "id": 3,
-        "article_id": 7,
-        "reference_title": "Your Website Needs A Receptionist",
-        "reference_url": "https://beyondchats.com/blogs/your-website-needs-a-receptionist/",
-        "reference_source": "beyondchats.com",
-        "created_at": "2025-12-28T06:51:53.940Z"
-      },
-      {
-        "id": 4,
-        "article_id": 7,
-        "reference_title": "Your Website Needs A Receptionist",
-        "reference_url": "https://beyondchats.com/blogs/your-website-needs-a-receptionist/",
-        "reference_source": "beyondchats.com",
-        "created_at": "2025-12-28T06:51:53.940Z"
-      }
-    ]
+    "references": []
   },
   {
     "id": 5,
@@ -74,6 +57,18 @@ export const mockArticles = [
     "scraped_at": "2025-12-28T06:46:51.357Z",
     "updated_at": "2025-12-28T06:51:46.253Z",
     "content": "\n\n\t\t\t<footer class=\"ct-comment-meta\">\n\t\t\t\t<figure class=\"ct-media-container\"><img src=\"https://secure.gravatar.com/avatar/fb33926654f36d36a0ae6f8e3a19356311a8baa598c2a4003e0a3aa1fe0b7fc6?s=100&amp;d=mm&amp;r=g\" width=\"100\" height=\"100\" alt=\"Pankaj\" style=\"aspect-ratio: 1/1;\"></figure>\n\t\t\t\t<h4 class=\"ct-comment-author\">\n\t\t\t\t\t<cite>Pankaj</cite>\t\t\t\t</h4>\n\n\t\t\t\t<div class=\"ct-comment-meta-data\">\n\t\t\t\t\t<a href=\"https://beyondchats.com/blogs/will-ai-understand-the-complexities-of-patient-care/#comment-619\"><time datetime=\"2025-04-03T00:16:14+05:30\">April 3, 2025 / 12:16 am</time></a>\n\t\t\t\t\t\n\t\t\t\t\t<a rel=\"nofollow\" class=\"comment-reply-link\" href=\"#comment-619\" data-commentid=\"619\" data-postid=\"7360\" data-belowelement=\"ct-comment-inner-619\" data-respondelement=\"respond\" data-replyto=\"Reply to Pankaj\" aria-label=\"Reply to Pankaj\">Reply</a>\t\t\t\t</div>\n\t\t\t</footer>\n\n\n\t\t\t<div class=\"ct-comment-content entry-content is-layout-flow\">\n\t\t\t\t<p>Very well written. But I feel it's only a matter of time when AI starts understanding patient nuances much better. Doctors are already super tired and many times, also biased. AI might become better than avg doctors at patient care. But I agree that AI is not there yet.</p>\n\n\t\t\t\t\t\t\t</div>\n\n\t\t",
+    "references": []
+  },
+  {
+    "id": 6,
+    "title": "Will AI Understand the Complexities of Patient Care? (Enhanced)",
+    "author": "Unknown Author",
+    "publication_date": "2025-12-28T12:21:50.826Z",
+    "source_url": "https://beyondchats.com/blogs/will-ai-understand-the-complexities-of-patient-care/#enhanced",
+    "is_updated": true,
+    "scraped_at": "2025-12-28T06:51:45.947Z",
+    "updated_at": "2025-12-28T07:29:45.576Z",
+    "content": "<article>\n  <h1>Will AI Understand the Complexities of Patient Care? - Enhanced Version</h1>\n  <p>This article has been enhanced with insights from top-ranking competitors.</p>\n  <section>\n    <h2>Key Improvements in This Version</h2>\n    <ul>\n      <li>Better structure and organization</li>\n      <li>Additional insights from competitor research</li>\n      <li>Improved clarity and readability</li>\n      <li>Comprehensive coverage of the topic</li>\n    </ul>\n  </section>\n  <section>\n    <h2>Original Content (Enhanced)</h2>\n    <p>Very well written. But I feel it's only a matter of time when AI starts understanding patient nuances much better. Doctors are already super tired and many times, also biased. AI might become better than avg doctors at patient care. But I agree that AI is not there yet.</p>\n  </section>\n  <p><em>This enhanced version maintains the original voice while incorporating best practices from top-ranking articles on the same topic.</em></p>\n</article>",
     "references": [
       {
         "id": 1,
@@ -94,26 +89,14 @@ export const mockArticles = [
     ]
   },
   {
-    "id": 6,
-    "title": "Will AI Understand the Complexities of Patient Care? (Enhanced)",
-    "author": "Unknown Author",
-    "publication_date": "2025-12-28T12:21:50.826Z",
-    "source_url": "https://beyondchats.com/blogs/will-ai-understand-the-complexities-of-patient-care/#enhanced",
-    "is_updated": false,
-    "scraped_at": "2025-12-28T06:51:45.947Z",
-    "updated_at": "2025-12-28T06:51:45.947Z",
-    "content": "<article>\n  <h1>Will AI Understand the Complexities of Patient Care? - Enhanced Version</h1>\n  <p>This article has been enhanced with insights from top-ranking competitors.</p>\n  <section>\n    <h2>Key Improvements in This Version</h2>\n    <ul>\n      <li>Better structure and organization</li>\n      <li>Additional insights from competitor research</li>\n      <li>Improved clarity and readability</li>\n      <li>Comprehensive coverage of the topic</li>\n    </ul>\n  </section>\n  <section>\n    <h2>Original Content (Enhanced)</h2>\n    <p>Very well written. But I feel it's only a matter of time when AI starts understanding patient nuances much better. Doctors are already super tired and many times, also biased. AI might become better than avg doctors at patient care. But I agree that AI is not there yet.</p>\n  </section>\n  <p><em>This enhanced version maintains the original voice while incorporating best practices from top-ranking articles on the same topic.</em></p>\n</article>",
-    "references": []
-  },
-  {
     "id": 7,
     "title": "Your website needs a receptionist (Enhanced)",
     "author": "Unknown Author",
     "publication_date": "2025-12-28T12:21:58.649Z",
     "source_url": "https://beyondchats.com/blogs/your-website-needs-a-receptionist/#enhanced",
-    "is_updated": false,
+    "is_updated": true,
     "scraped_at": "2025-12-28T06:51:53.758Z",
-    "updated_at": "2025-12-28T06:51:53.758Z",
+    "updated_at": "2025-12-28T07:29:36.303Z",
     "content": "<article>\n  <h1>Your website needs a receptionist - Enhanced Version</h1>\n  <p>This article has been enhanced with insights from top-ranking competitors.</p>\n  <section>\n    <h2>Key Improvements in This Version</h2>\n    <ul>\n      <li>Better structure and organization</li>\n      <li>Additional insights from competitor research</li>\n      <li>Improved clarity and readability</li>\n      <li>Comprehensive coverage of the topic</li>\n    </ul>\n  </section>\n  <section>\n    <h2>Original Content (Enhanced)</h2>\n    <p>So true! Not having an interactive element like chatbot on a website significantly reduces traffic retention.</p>\n  </section>\n  <p><em>This enhanced version maintains the original voice while incorporating best practices from top-ranking articles on the same topic.</em></p>\n</article>",
     "references": [
       {
@@ -127,10 +110,10 @@ export const mockArticles = [
       {
         "id": 4,
         "article_id": 7,
-        "reference_title": "Your Website Needs A Receptionist",
-        "reference_url": "https://beyondchats.com/blogs/your-website-needs-a-receptionist/",
-        "reference_source": "beyondchats.com",
-        "created_at": "2025-12-28T06:51:53.940Z"
+        "reference_title": "Ruby: #1 Virtual Receptionist & Live Chat Solution for Small ...",
+        "reference_url": "https://www.ruby.com/",
+        "reference_source": "www.ruby.com",
+        "created_at": "2025-12-28T06:51:54.044Z"
       }
     ]
   },
@@ -140,7 +123,7 @@ export const mockArticles = [
     "author": "Unknown Author",
     "publication_date": "2025-12-28T12:22:13.931Z",
     "source_url": "https://beyondchats.com/blogs/ai-in-healthcare-hype-or-reality/#enhanced",
-    "is_updated": false,
+    "is_updated": true,
     "scraped_at": "2025-12-28T06:52:09.684Z",
     "updated_at": "2025-12-28T06:52:09.684Z",
     "content": "<article>\n  <h1>AI in Healthcare: Hype or Reality? - Enhanced Version</h1>\n  <p>This article has been enhanced with insights from top-ranking competitors.</p>\n  <section>\n    <h2>Key Improvements in This Version</h2>\n    <ul>\n      <li>Better structure and organization</li>\n      <li>Additional insights from competitor research</li>\n      <li>Improved clarity and readability</li>\n      <li>Comprehensive coverage of the topic</li>\n    </ul>\n  </section>\n  <section>\n    <h2>Original Content (Enhanced)</h2>\n    <p>Explainable AI is definitely the way forward. At its current state, it should be seen more as an Assistive Intelligence rather than Artificial Intelligence.</p>\n  </section>\n  <p><em>This enhanced version maintains the original voice while incorporating best practices from top-ranking articles on the same topic.</em></p>\n</article>",
