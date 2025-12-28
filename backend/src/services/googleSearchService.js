@@ -35,7 +35,7 @@ const searchGoogle = async (query) => {
         
         return !isPdf && !excludedDomains.some((domain) => url.includes(domain));
       })
-      .slice(0, 10)
+      .slice(0, 2) // Get only TOP 2 results as per assignment
       .map((result) => ({
         title: result.title,
         url: result.link,
@@ -43,7 +43,7 @@ const searchGoogle = async (query) => {
         source: new URL(result.link).hostname,
       }));
 
-    console.log(`[SEARCH] Found ${filteredResults.length} relevant results`);
+    console.log(`[SEARCH] Found ${filteredResults.length} competitor articles (top 2)`);
     return filteredResults;
   } catch (error) {
     console.error('[SEARCH] Error:', error.message);
