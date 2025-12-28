@@ -39,7 +39,7 @@ Task: Rewrite the original article to match the quality and structure of top-ran
 Do not include references or citations yet. Focus on content quality and completeness.`;
 
     const response = await axios.post(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent`,
       {
         contents: [
           {
